@@ -635,8 +635,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Albedo-BOT'
-global.stickauth = `By ©WH-MODS-DEV`
+global.stickpack = 'ム𝐑𝐢𝐦𝐮𝐫𝐮'
+global.stickauth = `By Ray | 62895627514070`
 
 global.multiplier = 38 // The higher, The harder levelup
 
