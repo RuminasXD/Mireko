@@ -877,8 +877,8 @@ export async function handler(chatUpdate) {
                     if (!('antiLink' in chat)) chat.antiLink = false
                     if (!('antiSticker' in chat)) chat.antiSticker = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
-                    if (!('detect' in chat)) chat.detect = false
-                    if (!('delete' in chat)) chat.delete = true
+                    if (!('detect' in chat)) chat.detect = true
+                    if (!('delete' in chat)) chat.delete = false
                     if (!('getmsg' in chat)) chat.getmsg = false
                     if (!('isBanned' in chat)) chat.isBanned = false
                     if (!('lastAnime' in chat)) chat.lastAnime = false
@@ -904,8 +904,8 @@ export async function handler(chatUpdate) {
                         antiLink: false,
                         antiSticker: false,
                         antiToxic: false,
-                        detect: false,
-                        delete: true,
+                        detect: true,
+                        delete: false,
                         expired: 0,
                         getmsg: false,
                         isBanned: false,
