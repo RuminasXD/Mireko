@@ -570,7 +570,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', fload) 
+    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftoko) 
 
     
     //------------------< MENU >----------------
