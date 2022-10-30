@@ -1296,23 +1296,16 @@ export async function participantsUpdate({ id, participants, action }) {
                                 background: 'https://telegra.ph/file/e0e1ee70480759e2d0ac7.jpg',
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
-                            })
+                             })
                             
- /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram/b4c00t4an_s3l3b',
-    mediaType: 2, 
-    description: sgc,
-    title: 'Hᴀʟᴏ Nɢᴀʙ',
-    body: wm,
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
-    sourceUrl: sgc
-     }}
-  })*/
-  let welcom = 'https://telegra.ph/file/aa6e6cf3bcd33bb3d3460.jpg'
-
-  let godbye = 'https://telegra.ph/file/bf51c21b0804185ad24ee.jpg'
-  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Albedo-BOT', fkontak)
-  
+ conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'RimuruBot', fkontak, { contextInfo: { externalAdReply :{ 
+                mediaType: 1, 
+                title: this.getName(user), 
+                thumbnail: await(await fetch(pp)).buffer(), 
+                sourceUrl: 'https://instagram.com/b4c00t4an_s3l3b',
+                renderLargerThumbnail: true,
+            }}
+  })
                     }
                 }
             }
