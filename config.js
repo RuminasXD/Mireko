@@ -49,9 +49,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/inizenscuy' // ig
+global.sig = 'https://instagram.com/rayhannr24' // ig
 global.sgh = 'https://github.com/RyhnXD/' // github
-global.sgc = 'https://chat.whatsapp.com/' // group whatsapp
+global.sgc = 'https://chat.whatsapp.com/HJRUnvGtpR9Ah4EWM3GT91' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
 global.snh = 'https://nhentai.net/g/767842' //Hmmm, Ini boleh kalian isi terserah :v
 global.sfb = 'https://www.facebook.com/' // facebook
@@ -70,7 +70,7 @@ global.psaweria = 'https://saweria.com/'
 global.nomorbot = '6289636443917'
 global.nomorown = '62895627514070'
 global.namebot = 'RimuruBot'
-global.nameown = 'Hans'
+global.nameown = 'Tomoya'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'RyhnXD' // nama github lu
